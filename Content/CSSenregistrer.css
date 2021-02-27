@@ -1,0 +1,127 @@
+h2 {
+	color: #f50000 !important;
+	font-family: shanghai !important;
+	letter-spacing: 2px !important;
+	text-align: center !important;
+}
+label {
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 40%;
+	/*Move the labels left be decreasing the value or right by increasing the value*/
+	text-align: right;
+	padding-right: 2%;
+	/*Put spaces between the label and the input box*/
+	color: #FFFFFF;
+	/*Font color for the label*/
+	font-family: Arial;
+}
+input {
+	display: inline-block;
+	/*Put spaces between the input boxes*/
+}
+
+/*the code abve that isn't commented is used to align the labels and textboxes*/
+
+form {
+	margin-top: 4%;
+}
+
+/*move the form lower*/
+
+#username, #password, #rpassword, #fname, #lname {
+	width: 20%;
+	float:left;
+}/*Set the width and height of the input boxes*/
+
+
+#link{
+	text-decoration:none;
+	color:red;
+}
+#link:hover{
+	color:#a31123
+}
+
+
+.buttonHolder{
+	text-align:center;
+}
+
+.btn-danger {
+	background-color: #b91327;
+}
+
+/*background color of the submit button and alignment of the button*/
+
+.btn-danger:hover {
+	background-color: #a31123;
+}
+
+/*background color of the submit button when hovered over*/
+
+#usernameTip {
+	margin-left: 10px;
+	width: 12px;
+	height: 12px;
+}/*the tooltip for the username*/
+
+#passwordTip {
+	margin-left: 10px;
+	width: 12px;
+	height: 12px;
+}/*the tooltip for the password*/
+
+#nameTip {
+	margin-left: 10px;
+	width: 12px;
+	height: 12px;
+}/*the tooltip for the name*/
+
+span {
+	color: #e7d732;
+	margin-top:10px;
+}
+
+p{
+	text-align:center;
+	margin-top:2%;
+	color:red;
+}
+
+#bottomText{
+	text-align:center;
+	margin-top:2%;
+	color:#e7d732;
+}
+
+#div_RPassword{
+	margin-bottom:10px;
+}
+/*=================*/
+/*||-Tablet Size-||*/
+/*=================*/
+@media screen and (min-width: 586px) and (max-width: 799px) {
+	#username, #password, #rpassword, #fname, #lname {
+		width: 30%;
+	}
+	#passEqaulity{
+		margin-top:5%;
+	}
+}
+
+/*================*/
+/*||-Phone Size-||*/
+/*================*/
+@media screen and (max-width: 585px) {
+	#username, #password, #rpassword, #fname, #lname {
+		width: 45%;
+	}
+	p{
+		margin-top:5%;
+	}
+	#passEqaulity{
+		margin-top:8%;
+	}
+}

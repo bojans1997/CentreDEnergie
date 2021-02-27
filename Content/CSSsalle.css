@@ -1,0 +1,150 @@
+html, body{
+	height:100%;
+}
+
+.post h2 {
+	color: e7d732;
+	text-align: center;
+	font-family: shanghai;
+	letter-spacing: 2px
+}/*title*/
+
+.postContent {
+	margin-right: 1%;
+	color: black;
+	line-height: 25px;
+	text-align: justify;
+	font-size: 17px;
+	font-family: Comic Sans MS
+}/*text inside the box*/
+
+.post {
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	word-wrap: break-word;
+	background-color: rgba(105, 105, 105, .5);
+}/*the box itself*/
+
+#tareaBorder {
+	color: black;
+}
+
+textarea {
+	width: 75% !important;
+	margin-top: -20px !important;
+	margin-bottom: -0.306%;
+	background: transparent !important;
+	color: white !important;
+	font-size: 20px !important;
+	font-family: Arial !important;
+	border: none !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-top: 0px !important;
+	padding-bottom: 2%;
+	resize: none !important;
+	border-right: solid black !important;
+}
+
+#button {
+	float: right;
+	width: 20%;
+	margin-right: 12px;
+	padding-top: 2%;
+	font-family: shanghai;
+	color: #e7d732;
+	letter-spacing: 2px;
+	background: transparent;
+	font-size: 22px;
+	border-style: none;
+}
+
+.button_Button{
+	display:none;
+}
+
+#wrapper{
+	height:500px;
+	overflow:auto;
+}
+
+
+#chatMessages{
+	width:95%;
+}
+
+#chatMessages > li {
+	width:42%;
+	color:white;
+	font-size:16px;
+	padding:7px;
+	border:2px solid black;
+	border-radius:25px;
+	background-color:rgba(105, 105, 105,1);
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+	textarea {
+		margin-bottom: -0.5%;
+		padding-bottom: 5%;
+	}
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+} /* this removes the blue border when the textarea or the button are clicked on */
+
+/*=================*/
+/*||-Laptop Size-||*/
+/*=================*/
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+	.post{
+		margin-top:10px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+/*=================*/
+/*||-Tablet Size-||*/
+/*=================*/
+@media screen and (min-width: 586px) and (max-width: 799px) {
+	.post{
+		margin-top:10px;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+/*================*/
+/*||-Phone Size-||*/
+/*================*/
+@media screen and (max-width: 585px) {
+	.post{
+		margin-top:10px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.input_Button{
+		display:none;
+	}
+	.button_Button{
+		display:inline;
+	}
+}

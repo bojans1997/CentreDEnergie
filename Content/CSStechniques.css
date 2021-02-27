@@ -1,0 +1,239 @@
+h2 {
+	color: #c1b42e !important;
+	font-family: shanghai !important;
+	letter-spacing: 2px !important;
+	text-align: center !important;
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 25px;
+	width: 90%;
+	margin: 0px auto;
+	color: black;
+	background-color: rgb(105, 105, 105);
+}/*the table itself */
+
+.tg td {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	word-wrap: normal;
+	overflow: hidden
+}/*table data*/
+
+.tg th {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+}/*belt color name*/
+
+.tg .tg-baqh {
+	text-align: center;
+	vertical-align: top
+}/*the technique values*/
+
+.tg .tg-amwm {
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	width:10%;
+	font-family:shanghai;
+	letter-spacing:2px;
+}/*the first row and the first column*/
+
+#btn_white{
+	background-color: white;
+	border: 1px solid white;
+	color: black;
+	display:none;
+}
+
+#btn_yellow{
+	background-color: #ddd840;
+	border: 1px solid #ddd840;
+	color: black;
+	display:none;
+}
+#btn_orange{
+	background-color: orange;
+	border: 1px solid orange;
+	color: black;
+	display:none;
+}
+#btn_purple{
+	background-color: #d365cf;
+	border: 1px solid #d365cf;
+	color: black;
+	display:none;
+}
+#btn_blue{
+	background-color: #4286f4;
+	border: 1px solid #4286f4;
+	color: black;
+	display:none;
+}
+#btn_green{
+	background-color: green;
+	border: 1px solid green;
+	color: white;
+	display:none;
+}
+#btn_brown{
+	background-color: #93503c;
+	border: 1px solid #93503c;
+	color: white;
+	display:none;
+}
+#btn_black{
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	display:none;
+}
+
+.well{
+	display:none;
+}
+/*=================*/
+/*||-Laptop Size-||*/
+/*=================*/
+@media screen and (min-width: 800px) and (max-width: 1024px){
+	
+}
+/*=================*/
+/*||-Tablet Size-||*/
+/*=================*/
+@media screen and (min-width: 586px) and (max-width: 799px) {
+	table{
+		display:none;
+	}
+	.well{
+		display:inline-block;
+		width:50%;
+	}
+	#btn_white, #btn_yellow, #btn_orange, #btn_purple, #btn_blue, #btn_green, #btn_brown, #btn_black{
+		display:inline;
+		width:25%;
+		height:40px;
+		font-family:shanghai;
+		letter-spacing: 1px;
+		font-size:20px;
+	}
+	
+	#btnRows{
+		text-align:center;
+		margin-bottom:2%;
+	}
+	#well_white{
+		background-color:white;
+		border: 1px solid #e2e2e2;
+	}
+	#well_yellow{
+		background-color: #ddd840;
+		border: 1px solid #c9c438;
+		color: black;
+	}
+	#well_orange{
+		background-color: orange;
+		border: 1px solid #ce7f00;
+		color: black;
+	}
+	#well_purple{
+		background-color: #d365cf;
+		border: 1px solid #ba57b6;
+		color: black;
+	}
+	#well_blue{
+		background-color: #4286f4;
+		border: 1px solid #3774d6;
+		color: black;
+	}
+	#well_green{
+		background-color: green;
+		border: 1px solid #0a3d01;
+		color: white;
+	}
+	#well_brown{
+		background-color: #93503c;
+		border: 1px solid #603426;
+		color: white;
+	}
+	#well_black{
+		background-color:black;
+		border: 1px solid white;
+		color: white;
+	}
+}
+
+/*================*/
+/*||-Phone Size-||*/
+/*================*/
+@media screen and (max-width: 585px) {
+	table{
+		display:none;
+	}
+	.well{
+		display:inline-block;
+		width:100%;
+	}
+	#btn_white, #btn_yellow, #btn_orange, #btn_purple, #btn_blue, #btn_green, #btn_brown, #btn_black{
+		display:inline;
+		width:100%;
+		height:40px;
+		font-family:shanghai;
+		letter-spacing: 1px;
+		font-size:20px;
+	}
+	
+	#btnRows{
+		text-align:center;
+		margin-bottom:2%;
+	}
+	#well_white{
+		background-color:white;
+		border: 1px solid #e2e2e2;
+	}
+	#well_yellow{
+		background-color: #ddd840;
+		border: 1px solid #c9c438;
+		color: black;
+	}
+	#well_orange{
+		background-color: orange;
+		border: 1px solid #ce7f00;
+		color: black;
+	}
+	#well_purple{
+		background-color: #d365cf;
+		border: 1px solid #ba57b6;
+		color: black;
+	}
+	#well_blue{
+		background-color: #4286f4;
+		border: 1px solid #3774d6;
+		color: black;
+	}
+	#well_green{
+		background-color: green;
+		border: 1px solid #0a3d01;
+		color: white;
+	}
+	#well_brown{
+		background-color: #93503c;
+		border: 1px solid #603426;
+		color: white;
+	}
+	#well_black{
+		background-color:black;
+		border: 1px solid white;
+		color: white;
+	}
+}
